@@ -31,6 +31,3 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   });
 });
 
-
-https://docs.google.com/forms/d/e/1FAIpQLSdOG80YvdAwGdxPPqe-fYi3129yNalo2bmDhRLCBq3YdCilvQ/viewform?
-usp=pp_url&entry.726004286=test&entry.959984559=test@gmail.com&entry.1082391546=i+love+you
