@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nirajan Adhikari | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Nirajan Adhikari</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="me.png" alt="Profile" class="profile-img"/>
+    <h1>Hi, I'm Nirajan</h1>
+    <p>Electronic Communication & Information Engineer | Flutter Developer | Tech Enthusiast</p>
+    <a href="#contact" class="btn">Let's Connect</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an enthusiastic Electronic Communication and Information Engineer deeply passionate about technology and mobile development. I’ve been continuously learning and building my expertise in Flutter and other cutting-edge tools to develop seamless, efficient, and user-friendly applications.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Flutter & Dart</li>
+      <li>UI/UX Design</li>
+      <li>RESTful APIs</li>
+      <li>Firebase</li>
+      <li>Electronics & Communication Systems</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="jm.webp" alt="Jhandi Mundi" />
+        <h3>Jhandi Mundi</h3>
+        <p>A digital version of the traditional Nepali game played during festivals like Dashain and Tihar.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="gym.png" alt="Daily Exercises App" />
+        <h3>Daily Exercises App</h3>
+        <p>An exercise app that provides users with curated daily workouts to stay healthy and active.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" id="name" required />
+      <input type="email" placeholder="Your Email" id="email" required />
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit">Send</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://facebook.com/YOUR_FACEBOOK" class="fa-brands fa-facebook" target="_blank"></a>
+      <a href="https://instagram.com/YOUR_INSTAGRAM" class="fa-brands fa-instagram" target="_blank"></a>
+      <a href="https://linkedin.com/in/YOUR_LINKEDIN" class="fa-brands fa-linkedin" target="_blank"></a>
+    </div>
+    <p>&copy; 2025 Nirajan Adhikari. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
