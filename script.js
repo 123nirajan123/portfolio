@@ -9,9 +9,9 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   const message = document.getElementById('message').value;
 
   // Prepare form data using your Google Form field IDs
-  const formData = new FormData();
-  formData.append("entry.726004286", name);       // Name field
-  formData.append("entry.959984559", email);      // Email field
+  const formData = new FormData();                              
+  formData.append("entry.751742719", name);       // Name field
+  formData.append("entry.154641461", email);      // Email field
   formData.append("entry.1349579672", message);   // Message field
 
   // Send data to your Google Form
