@@ -1,89 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nirajan Adhikari | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirajan Adhikari - Electronics & Communication Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">Nirajan Adhikari</div>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">NA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <section class="hero">
-    <img src="me.png" alt="Profile" class="profile-img"/>
-    <h1>Hi, I'm Nirajan</h1>
-    <p>Electronic Communication & Information Engineer | Flutter Developer | Tech Enthusiast</p>
-    <a href="#contact" class="btn">Let's Connect</a>
-  </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Nirajan Adhikari</h1>
+            <h2>Electronics & Communication Engineer</h2>
+            <p>Passionate about IoT, Embedded Systems, and Software Development</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an enthusiastic Electronic Communication and Information Engineer deeply passionate about technology and mobile development. I’ve been continuously learning and building my expertise in Flutter and other cutting-edge tools to develop seamless, efficient, and user-friendly applications.
-    </p>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a 23-year-old Electronics, Communication, and Information Engineer, recently graduated from Tribhuvan University, Nepal. My passion lies in creating innovative solutions that bridge hardware and software.</p>
+                <div class="key-info">
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>B.E. in Electronics & Communication</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-university"></i>
+                        <span>Tribhuvan University</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-code"></i>
+                        <span>Full-Stack Development</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-microchip"></i>
+                        <span>Embedded Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Flutter & Dart</li>
-      <li>UI/UX Design</li>
-      <li>RESTful APIs</li>
-      <li>Firebase</li>
-      <li>Electronics & Communication Systems</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Smart Door System</h3>
+                    <p>A facial recognition-based door security system developed during a hardware hackathon.</p>
+                    <div class="tech-stack">
+                        <span>Computer Vision</span>
+                        <span>IoT</span>
+                        <span>Security</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Agricultural Automation System</h3>
+                    <p>IoT-based system using ESP32, various sensors, and actuators for smart farming.</p>
+                    <div class="tech-stack">
+                        <span>ESP32</span>
+                        <span>Sensors</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Smart Bot with Pathfinding</h3>
+                    <p>Implemented Dijkstra's algorithm for optimal path navigation in a smart bot.</p>
+                    <div class="tech-stack">
+                        <span>Algorithms</span>
+                        <span>Robotics</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="jm.webp" alt="Jhandi Mundi" />
-        <h3>Jhandi Mundi</h3>
-        <p>A digital version of the traditional Nepali game played during festivals like Dashain and Tihar.</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project-card">
-        <img src="gym.png" alt="Daily Exercises App" />
-        <h3>Daily Exercises App</h3>
-        <p>An exercise app that provides users with curated daily workouts to stay healthy and active.</p>
-        <a href="#">View Project</a>
-      </div>
-    </div>
-  </section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience & Training</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Microcontroller Training</h3>
+                    <p>Excess Nepal</p>
+                    <ul>
+                        <li>Participated in comprehensive microcontroller training</li>
+                        <li>Later became a trainer for Python CS50x Nepal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Software Hackathons</h3>
+                    <p>Multiple Events</p>
+                    <ul>
+                        <li>Participated in 3 software hackathons</li>
+                        <li>Developed applications using Java and Dart</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Delta Competition</h3>
+                    <p>Purwanchal Campus, Dharan</p>
+                    <ul>
+                        <li>Developed agricultural automation system</li>
+                        <li>Integrated multiple sensors and control systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" id="name" required />
-      <input type="email" placeholder="Your Email" id="email" required />
-      <textarea placeholder="Your Message" id="message" required></textarea>
-      <button type="submit">Send</button>
-      <p id="formMessage"></p>
-    </form>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+9779804938126">+977 9804938126</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:nirajanadhikariofficial@gmail.com">nirajanadhikariofficial@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/knee.raa.jaan" target="_blank">Facebook Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <div class="social-links">
-      <a href="https://facebook.com/YOUR_FACEBOOK" class="fa-brands fa-facebook" target="_blank"></a>
-      <a href="https://instagram.com/YOUR_INSTAGRAM" class="fa-brands fa-instagram" target="_blank"></a>
-      <a href="https://linkedin.com/in/YOUR_LINKEDIN" class="fa-brands fa-linkedin" target="_blank"></a>
-    </div>
-    <p>&copy; 2025 Nirajan Adhikari. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2024 Nirajan Adhikari. All rights reserved.</p>
+    </footer>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
